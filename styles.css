@@ -1,0 +1,35 @@
+#gameContainer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#gameBoard {
+    border: 5px solid #550243;
+    /* las dimensiones estân en el html */
+}
+
+#scoreText {
+    font-family: sans-serif;
+    font-size: 100px;
+    color: #550243;
+}
+
+#resetButton {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #550243;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    /* el cursor se vuelve una manita */ 
+}
+
+#resetButton:hover {
+    background-color: #550243;
+    color: white;
+}
